@@ -1,5 +1,5 @@
 import "dotenv/config";
-import SteamClient, {SteamClientEvents} from "steamutils/SteamClient";
+import SteamClient, {SteamClientEvents} from "steamutils/SteamClient.js";
 
 async function main() {
     const steamClient = new SteamClient({
